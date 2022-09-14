@@ -9,6 +9,7 @@ int main()
  int totalpanes;
  cout<<"cuentas los panes\n";
  cout<<"ingrese el total de panes\n";
+ cin>>totalpanes;
   int precio,suma=0,cantidad=0;
   do
   {
@@ -20,7 +21,7 @@ int main()
         cantidad++;
     }
     
-  } while (cantidad <=5);
+  } while (cantidad <=totalpanes);
    int numero;
     srand(time(NULL));
   for (int i = 0; i < 20; i++)
